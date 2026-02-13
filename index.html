@@ -123,13 +123,43 @@
 <label for="favoriteColor">Cor favorita</label>
 <input type="color" name="userFavoriteColor" id="favoriteColor">
 </fieldset>
-            
+            <fieldset>
+                <legend>Opnião</legend>
+                <p>Oque achou do nosso serviço?</p>
+
+                <input value="otima"  name="usersatic" id="userSatisfaction" type="radio">
+                <label for="userSatisfaction">otima</label>
+
+                <input value="boa"  name="usersatic" id="userSatisfaction" type="radio">
+                <label for="userSatisfaction">boa</label>
+
+                <input value="regular"  name="usersatic" id="userSatisfaction" type="radio">
+                <label for="userSatisfaction">regular</label>
+
+                <input value="ruim"  name="usersatic" id="userSatisfaction" type="radio">
+                <label for="userSatisfaction">ruim</label>
+                <br>
+                <label for="comment">Escvreva sua opnião: </label>
+                <br>
+                <textarea name="comment" id="" placeholder="Digite aqui..."></textarea>
+            </fieldset>
            
+            <fieldset>
+                <legend>Confirmações</legend>
+                    <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="confirmed" required>
+                    <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
+
+                    <legend>Confirmações</legend>
+                    <input type="checkbox" name="userGetresult" id="getResult" value="confirmed">
+                    <label for="getResult">Desejo receber o resultado por e-mail</label>
+                
+            </fieldset>
              
            
            
         
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
           
 
 
